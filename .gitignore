@@ -1,0 +1,6 @@
+__pycache__/
+build/
+dist/
+*.pyc
+samples/sample_form.pdf
+samples/sample_master.xlsx
