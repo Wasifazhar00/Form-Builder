@@ -1,0 +1,21 @@
+{
+  "name": "Sample account opening form",
+  "source_sha256": "",
+  "fields": [
+    {"page": 0, "rect": [150, 106, 400, 121], "key": "customer_name", "type": "text", "size": 11, "upper": true, "required": true},
+    {"page": 0, "rect": [150, 136, 400, 151], "key": "father_name", "type": "text", "size": 11, "upper": true},
+    {"page": 0, "rect": [150, 166, 300, 181], "key": "cnic", "type": "text", "required": true},
+    {"page": 0, "rect": [410, 166, 540, 181], "key": "dob", "type": "date", "fmt": "%d/%m/%Y"},
+    {"page": 0, "rect": [150, 196, 300, 211], "key": "account_no", "type": "text", "required": true},
+    {"page": 0, "rect": [150, 240, 162, 252], "key": "account_type", "type": "radio", "match": "Savings", "mark": "X"},
+    {"page": 0, "rect": [240, 240, 252, 252], "key": "account_type", "type": "radio", "match": "Current", "mark": "X"},
+    {"page": 0, "rect": [330, 240, 342, 252], "key": "account_type", "type": "radio", "match": "Term Deposit", "mark": "X"},
+    {"page": 0, "rect": [190, 276, 330, 291], "key": "opening_amount", "type": "currency", "fmt": "{:,.0f}", "align": "right"},
+    {"page": 0, "rect": [153, 313, 537, 357], "key": "address", "type": "multiline", "size": 10},
+    {"page": 0, "rect": [150, 380, 300, 420], "key": "signature", "type": "signature"},
+    {"page": 0, "rect": [470, 30, 540, 100], "key": "account_no", "type": "qr"},
+    {"page": 1, "rect": [150, 86, 400, 101], "key": "NBP Chowk Azam, Layyah", "type": "static"},
+    {"page": 1, "rect": [150, 116, 400, 131], "key": "customer_name", "type": "text", "upper": true},
+    {"page": 1, "rect": [150, 146, 400, 161], "key": "nominee", "type": "text", "cond": "has_nominee=yes"}
+  ]
+}
