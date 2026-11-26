@@ -1,3 +1,8 @@
-pymupdf
-pandas
+pymupdf>=1.24.10
+cryptography
 openpyxl
+qrcode[pil]
+python-barcode[images]
+rapidocr-onnxruntime
+opencv-python
+acroforge
